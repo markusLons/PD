@@ -14,7 +14,7 @@ spec:
       labels:
         app: producer
     spec:
-      imagePullPolicy: Always
       containers:
-        - name: producer
-          image: alins12/sha256:7b3836747a7a
+        - name: producer1
+          image: mlons/persondetectoralina:0.0005
+          imagePullPolicy: Always
